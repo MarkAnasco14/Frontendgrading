@@ -51,7 +51,7 @@ const StudentSidebar = () => {
               Home
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to="/student/calendar"
               className={`group relative flex items-center gap-2.5 rounded-sm px-4 py-2 font-medium duration-300 ease-in-out hover:bg-gray dark:text-bodydark1 dark:hover:bg-meta-4 ${
@@ -74,7 +74,7 @@ const StudentSidebar = () => {
               </svg>
               Calendar
             </NavLink>
-          </li>
+          </li> */}
           {/* <!-- Menu Item Profile --> */}
           {/* <li>
             <NavLink
@@ -111,7 +111,7 @@ const StudentSidebar = () => {
       </div>
 
       {/* <!-- Others Group --> */}
-      <div>
+      {/* <div>
         <h3 className="mb-4 ml-4 text-sm font-semibold text-bodydark2">
           OTHERS
         </h3>
@@ -123,7 +123,7 @@ const StudentSidebar = () => {
           <li className="dark:text-bodydark1">Possimus, natus alias.</li>
           <li className="dark:text-bodydark1">Saepe, incidunt blanditiis.</li>
         </ul>
-      </div>
+      </div> */}
     </>
   );
 };
