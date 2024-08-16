@@ -10,7 +10,7 @@ import { EyeCancel, EyeIconSignIn } from "../../components/Icons";
 const SignIn = () => {
   const motto = 'Your education is our mission.';
   // const motto = "Your tuition, is our mission.";
-  const loginText = "Sign in to SIS - Benedicto College";
+  const loginText = "GRADING SYSTEM - Benedicto College";
   // const loginText = "YAWA NGA MIS - LOG IN NAMO DIRI MGA GIATAY";
 
   const { user, login } = useContext(AuthContext);
@@ -203,8 +203,8 @@ const SignIn = () => {
                   <h2 className="text-2xl font-bold text-black sm:text-title-xl2">
                     {loginText}
                   </h2>
-                  <p className="my-5">
-                    Welcome back! Please enter your details
+                  <p className="my-5 text-align: center">
+                    Login Here
                   </p>
 
                   <form onSubmit={handleSubmit}>

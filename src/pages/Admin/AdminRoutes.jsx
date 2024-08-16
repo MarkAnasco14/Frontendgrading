@@ -10,16 +10,16 @@ import Profile from "../Sundoganan/Profile";
 import FormElements from "../Sundoganan/Form/FormElements";
 import FormLayout from "../Sundoganan/Form/FormLayout";
 
-import AdminHome from "./SubPages/AdminHome";
-import AddStudentPage from "./SubPages/AddStudentPage";
-import StudentTablePage from "./SubPages/StudentTablePage";
-import ViewStudentPage from "./SubPages/ViewStudentPage";
+import AdminHome from "./subPages/AdminHome";
+import AddStudentPage from "./subPages/AddStudentPage";
+import StudentTablePage from "./subPages/StudentTablePage";
+import ViewStudentPage from "./subPages/ViewStudentPage";
 
-import TeacherTablePage from "./SubPages/TeacherTablePage";
-import AddTeacherPage from "./SubPages/AddTeacherPage";
+import TeacherTablePage from "./subPages/TeacherTablePage";
+import AddTeacherPage from "./subPages/AddTeacherPage";
 
 import { StudentProvider } from "../../components/context/StudentContext";
-import DepartmentPage from "./SubPages/DepartmentPage";
+import DepartmentPage from "./subPages/DepartmentPage";
 
 const AdminRoutes = () => {
   return (
