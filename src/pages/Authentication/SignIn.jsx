@@ -72,7 +72,7 @@ const SignIn = () => {
 
                   <p className="2xl:px-20">{motto}</p>
 
-                  <span className="mt-15 inline-block">
+                  {/* <span className="mt-15 inline-block">
                     <svg
                       width="350"
                       height="350"
@@ -193,7 +193,7 @@ const SignIn = () => {
                         fill="#1C2434"
                       />
                     </svg>
-                  </span>
+                  </span> */}
                 </div>
               </div>
 
@@ -203,9 +203,9 @@ const SignIn = () => {
                   <h2 className="text-2xl font-bold text-black sm:text-title-xl2">
                     {loginText}
                   </h2>
-                  <p className="my-5 text-align: center">
+                  {/* <p className="my-5 text-align: center">
                     Login Here
-                  </p>
+                  </p> */}
 
                   <form onSubmit={handleSubmit}>
                     <div className="mb-4">
@@ -293,13 +293,13 @@ const SignIn = () => {
 
                       <button
                         type="submit"
-                        className={`inline-flex w-full items-center justify-center rounded-lg border border-primary p-3 text-xl text-white transition hover:bg-opacity-90 ${isLoading ? "bg-[#505456] hover:!bg-opacity-100" : "bg-primary"} gap-2`}
+                        className={`inline-flex w-full items-center justify-center rounded-lg border border-blue p-3 text-xl text-white transition hover:bg-opacity-90 ${isLoading ? "bg-[#505456] hover:!bg-opacity-100" : "bg-primary"} gap-2`}
                         disabled={isLoading}
                       >
                         {isLoading && (
                           <span className="block h-6 w-6 animate-spin rounded-full border-4 border-solid border-secondary border-t-transparent"></span>
                         )}
-                        {isLoading ? "Please wait..." : "Login"}
+                        {isLoading ? "Please wait..." : "Sign-in"}
                       </button>
                     </div>
 
